@@ -1,0 +1,53 @@
+/* Shared styles for tutorial images */
+.tutorial img {
+    width: 200px; /* Set the width to a fixed value */
+    height: 200px; /* Set the height to a fixed value */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Centered text with larger font size and weight */
+.featured-tutorials {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+/* Flexbox container for tutorial list */
+.tutorial-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+/* Individual tutorials */
+.tutorial1,
+.tutorial2,
+.tutorial3 {
+    margin: 20px;
+}
+
+/* Centered "See All Tutorials" link */
+.see-all-tutorials {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style for the "See All Tutorials" link */
+.see-all-tutorials a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #333;
+    padding: 10px 20px;
+}
+
+/* Style for tutorial name, description, and author */
+.tutorial-name,
+.tutorial-description,
+.tutorial-author {
+    text-align: left;
+    font-weight: bold;
+}

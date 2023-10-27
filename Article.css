@@ -1,0 +1,53 @@
+/* Shared styles for article images */
+.article img {
+    width: 200px; /* Set the width to a fixed value */
+    height: 200px; /* Set the height to a fixed value */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Centered text with larger font size and weight */
+.featured-articles {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+/* Flexbox container for article list */
+.article-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+/* Individual articles */
+.article1,
+.article2,
+.article3 {
+    margin: 20px;
+}
+
+/* Centered "See All Articles" link */
+.see-all-articles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style for the "See All Articles" link */
+.see-all-articles a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #333;
+    padding: 10px 20px;
+}
+
+/* Style for article name, description, and author */
+.article-name,
+.article-description,
+.article-author {
+    text-align: left;
+    font-weight: bold;
+}
